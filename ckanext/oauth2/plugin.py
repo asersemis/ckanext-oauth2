@@ -22,7 +22,7 @@ from __future__ import unicode_literals
 
 import logging
 import os
-import ckanext-oauth2
+import ckanext.oauth2
 from functools import partial
 from ckan import plugins
 from ckan.common import g
