@@ -24,7 +24,7 @@ from base64 import b64encode, urlsafe_b64encode
 import json
 import os
 import unittest
-from urllib import urlencode
+from urllib.parse import urlencode
 
 import ckanext.oauth2.oauth2 as oauth2
 from ckanext.oauth2.oauth2 import OAuth2Helper
